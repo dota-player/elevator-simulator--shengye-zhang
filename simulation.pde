@@ -180,3 +180,166 @@ void mousePressed(){
    
     
 }
+
+//class Direction_button {
+//  float wid;
+//  float heigh;
+//  boolean up = false;
+//  boolean down = false;
+//  color tar = (150);
+//  color un_tar = (200);
+  
+//  Direction_button(float wid, float heigh){
+//    this.wid = wid;
+//    this.heigh = heigh;
+//  }
+  
+//  void draw() {
+//  fill(200);
+//  rect(wid, heigh, 20, 40);
+  
+//  if(up){
+//    fill(tar);
+//    triangle(wid, heigh+15, wid+10, heigh, wid+20, heigh+15 );
+//    fill(un_tar);
+//    triangle(wid, heigh+25, wid+10, heigh+40, wid+20, heigh+25 );
+//  }
+//  else if(down){
+//    fill(tar);
+//    triangle(wid, heigh+25, wid+10, heigh+40, wid+20, heigh+25 );
+//    fill(un_tar);
+//    triangle(wid, heigh+15, wid+10, heigh, wid+20, heigh+15 );
+//  }
+//  else{
+//    fill(un_tar);
+//    triangle(wid, heigh+15, wid+10, heigh, wid+20, heigh+15 );
+//    triangle(wid, heigh+25, wid+10, heigh+40, wid+20, heigh+25 );
+//  }
+  
+  
+//  }
+  
+  
+//}
+//class Outside_Button {
+//  float wid;
+//  float heigh;
+//  float row;
+//  float col;
+//  boolean on = false;
+  
+//  Outside_Button(float wid, float heigh, float row, float col){
+//    this.wid = wid;
+//    this.heigh = heigh;
+//    this.row = row;
+//    this.col = col;
+//  }
+  
+//  boolean isClicked(){
+//    return (mouseX > wid && mouseY > heigh && mouseX < wid + row &&
+//    mouseY < heigh + col);
+//  }
+  
+//  void draw(){
+//    if(on == true){
+//      fill(200);
+//      rect(wid, heigh, row, col);
+//      fill(150);
+//      circle(wid+row/2,heigh+col/2,row-5);
+      
+//    } else {
+//      fill(200);
+//      rect(wid, heigh, row, col);
+//      fill(255);
+//      circle(wid+row/2,heigh+col/2,row-5);
+      
+//    }
+    
+//  }
+//}
+//class Inside_Button{
+//  float wid;
+//  float heigh;
+//  float row;
+//  float col;
+//  boolean on = false;
+  
+//  Inside_Button(float wid, float heigh, float row, float col){
+//    this.wid = wid;
+//    this.heigh = heigh;
+//    this.row = row;
+//    this.col = col;
+//  }
+  
+//  boolean isClicked(){
+//    return (mouseX > wid && mouseY > heigh && mouseX < wid + row &&
+//    mouseY < heigh + col);
+//  }
+    
+  
+//  void draw(){
+//    if(on == true){
+//    fill(150);
+//    circle(wid+row/2,heigh+col/2,row-5);
+      
+//    } else {
+//    fill(255);
+//    circle(wid+row/2,heigh+col/2,row-5); 
+    
+//  }
+//}
+//}
+//class Elevator {
+// private int num;
+// private int speed = 5;
+// public double target_height = height/6*5-150;
+// private double high = height/6*5-150;
+// public boolean start = false;
+// boolean up = false;
+// boolean down = false;
+// Queue<Integer> q = new LinkedList<Integer>();
+ 
+ 
+// Elevator(int num){
+//   this.num = num;
+ 
+// }
+ 
+// void draw(){
+   
+   
+//   if (q.peek() != null) {
+//      target_height = q.element(); 
+      
+//      if (target_height < high){
+//        up = true;
+//        start = true;
+//        high = high - speed;
+        
+        
+//      } else if (target_height > high) {
+//        down = true;
+//        start = true;
+//        high = high + speed;
+        
+//      } else{
+//          down = false;
+//          up = false;
+//          start = false;
+//          q.remove();
+          
+//        }
+//   }
+ 
+   
+
+      
+//    fill(200);
+//    rect(width/3*num+0,(float)high, 60, 150);
+//    rect(width/3*num+60,(float)high, 60, 150);
+    
+// }
+ 
+//}
+      
+   
